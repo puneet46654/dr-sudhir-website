@@ -11,7 +11,6 @@ const existingGallery=[
 {image:'conference',title:'A stage presentation',category:'Gatherings & presentations',alt:'Participants standing together on a conference stage with a floral bouquet'},
 {image:'gathering',title:'A group gathering',category:'Gatherings & presentations',alt:'A large group assembled outdoors in front of a circular building'},
 {image:'ceremony',title:'A ceremonial gathering',category:'Gatherings & presentations',alt:'A ceremonial gathering with participants, floral decorations and a framed portrait'},
-{image:'mantra',title:'SSI Mantra',category:'Surgical technology',alt:'Uploaded SSI Mantra product image showing the full surgical robotic system'},
-{image:'mantra-wide',title:'SSI Mantra · system view',category:'Surgical technology',alt:'A wide product image showing SSI Mantra robotic arms in their supplied configuration'}];
+{image:'mantra',title:'SSI Mantra',category:'Surgical technology',alt:'Uploaded SSI Mantra product image showing the full surgical robotic system'}];
 
 export const gallery=existingGallery.map((p,i)=>({...p,filePath:`/images/${p.image}.webp`,altText:p.alt,caption:p.title,date:null,location:null,chapter:p.category,sortOrder:i,publicationApproval:true}));
