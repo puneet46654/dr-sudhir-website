@@ -1,0 +1,11 @@
+export const associations = [
+ {id:'ss-innovations', name:'SS Innovations', heading:'A surgical perspective. A shared endeavour.', text:'Dr. Srivastava’s founding vision for SS Innovations grew from a clinical question: how could advanced robotic surgery become accessible to more people? His surgical experience and leadership helped set the direction; engineers, clinicians and organisational teams brought the technology into practice.'},
+ {id:'international',name:'SS Innovations International',heading:'An institution with an international horizon.',text:'SS Innovations International, Inc. is a U.S. company headquartered in India. Its international corporate development forms another chapter in Dr. Srivastava’s work as a surgical leader and institution builder.'}
+];
+export const ssicrs={name:'SS International Centre for Robotics Surgery',address:'404–405, 1st Floor, iLabs Centre, Udyog Vihar Phase III, Gurugram, Haryana 122016',url:'https://ssicrs.com/',programme:{title:'Cardiac Robotic Surgery Training · June 2026',figures:[['5','days'],['33','graduates'],['7','countries'],['16','international faculty members']],faculty:['Dr. Husam Balkhy','Dr. T. Sloane Guy','Dr. Frank Van Praet','Dr. Rakesh M. Suri']}};
+export const trainingLayers=[
+ {id:'institute',name:'Training institute',title:'Build familiarity through practice.',text:'Structured courses connect classroom learning with simulation, console practice and hands-on training.',methods:['Didactic and classroom sessions','Simulation','Console practice']},
+ {id:'clinical',name:'Clinical education centre',title:'Connect the technique to the procedure.',text:'Faculty interaction, procedure-specific teaching and case discussions connect practical skills with the clinical workflow.',methods:['Procedure-specific teaching','Wet-lab training','Live surgical demonstrations','Case discussions']},
+ {id:'ecosystem',name:'Robotic-surgery ecosystem',title:'Keep learning beyond the course.',text:'Tele-proctoring, assessment and continuing mentorship extend learning beyond the physical centre.',methods:['Tele-proctoring','Assessment','Online and continuing education']}
+];
+export const specialties=['Urology','Gynaecology','Thoracic surgery','Colorectal surgery','Gastrointestinal surgery','General surgery'].map(name=>({name,status:'Announced direction'}));

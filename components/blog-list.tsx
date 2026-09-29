@@ -1,0 +1,6 @@
+'use client';
+import {useState} from 'react';
+import Image from 'next/image';
+import {TextLink} from '@/components/editorial';
+import {type BlogArticle,readingTime} from '@/data/media';
+export default function BlogList({articles,categories}:{articles:BlogArticle[];categories:string[]}){const[category,setCategory]=useState('All');const shown=articles.filter(a=>category==='All'||a.category===category);return <><div className="filter-list" aria-label="Article categories">{['All',...categories].map(c=><button key={c} aria-pressed={category===c} onClick={()=>setCategory(c)}>{c}</button>)}</div>{!articles.length?<div className="reflection-empty" role="status"><span className="eyebrow">BLOGS AND REFLECTIONS</span><p>Reflections and perspectives will be published here.</p></div>:!shown.length?<p role="status">No reflections in this category yet.</p>:shown.map((a,i)=><article className={i===0?'featured-article':'article-row'} key={a.slug}>{i===0&&a.image&&<Image src={a.image.src} alt={a.image.alt} width={a.image.width} height={a.image.height} sizes="(max-width:760px) 100vw, 60vw"/>}<p className="eyebrow">{a.category} · <time dateTime={a.publicationDate}>{a.publicationDate}</time> · {readingTime(a)} min read</p><h3>{a.title}</h3><p>{a.summary}</p><TextLink href={`/media/blog/${a.slug}`}>Read reflection</TextLink></article>)}</>}
