@@ -83,5 +83,5 @@
 - All unapproved personal/family/spiritual photos, identities and dates; no archive photograph was fabricated or repurposed as a historical event.
 - No personal-association narrative for Sri Sathya Sai or Sri Madhusudan Sai inferred from prior programme entries or ceremonial photos. Data chapter reserved pending approved material.
 - No blog content supplied; no fabricated articles, quotations, dates or bylines. Empty state retained; published-only route generator supports future content. Sentinel static route returns not-found and is never linked.
-- Journey timeline currently ends in 2022, so no new 2026 milestone was appended, per requested condition.
+- The Journey timeline now includes the supplied 2019–2026 corporate, education and training milestones. Program records distinguish institutional entries from individual roles not specified in the approved CV.
 - No new personal contact information. Existing approved company link retained.

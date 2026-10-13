@@ -50,7 +50,7 @@ Archival photographs must include supplied captions, appropriate dimensions and 
 
 Blogs are intentionally empty. Add approved articles to blogArticles with unique slugs, ISO publication dates, an author, content paragraphs and status `published`; rebuild to generate article pages. Drafts are excluded from route generation and the public list. Reading time uses 200 words per minute. The unlinked `no-published-articles` sentinel satisfies static route generation when the archive is empty and renders not-found; it is not a sample article.
 
-NADI and CardioSnap are grouped pending confirmation of their relationship. Product quantities, unverified technical claims and unapproved family/spiritual photographs remain withheld. See REVIEW-NOTES.md for the detailed review queue and missing images. The Journey timeline still ends in 2022, so no 2026 milestone was inserted there.
+NADI and CardioSnap are grouped pending confirmation of their relationship. Product quantities, unverified technical claims and unapproved family/spiritual photographs remain withheld. See REVIEW-NOTES.md for the detailed review queue and missing images. The Journey timeline includes the supplied 2019–2026 corporate, education and training milestones.
 
 ## Existing hosting
 Production URL: https://sudhir-srivastava-professional-portfolio.ss-innovatio-5620.chatgpt.site
