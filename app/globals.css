@@ -75,3 +75,11 @@ h1,h2,h3{font-weight:300}h1 em,h2 em{color:inherit;font-style:italic;font-weight
 @media(min-width:801px){.site-header{padding-inline:max(36px,calc((100% - 1360px)/2))}.main-nav{gap:clamp(20px,2.6vw,40px)}.main-nav a{font-size:15px;letter-spacing:.03em}}
 @media(min-width:1101px){.site-header{padding-inline:max(56px,calc((100% - 1360px)/2))}}
 @media(min-width:801px){.hero-content{padding-left:47%}.hero-content .eyebrow{font-size:15px;letter-spacing:.16em;margin-bottom:28px}.hero-content h1{font-size:clamp(60px,6.4vw,116px);line-height:1}.hero-line{font-size:clamp(23px,2vw,32px);margin-top:34px}.hero-actions{margin-top:46px;gap:16px}.hero-cta{height:60px;padding:0 34px;font-size:15px}.hero-cta-primary{padding-right:10px}.hero-cta-icon{width:42px;height:42px}}
+.journey-purpose{display:grid;grid-template-columns:minmax(0,280px) minmax(0,1fr);gap:clamp(28px,4vw,56px);align-items:start;padding-block:60px}
+.journey-purpose>.photo{width:100%;aspect-ratio:4/5;max-height:350px}
+.journey-purpose>.photo img{object-position:center}
+.journey-purpose .eyebrow{margin-bottom:20px}
+.journey-purpose h2{margin-bottom:20px}
+.journey-purpose .lead{margin-bottom:20px}
+@media(max-width:800px){.journey-purpose{grid-template-columns:minmax(0,220px) minmax(0,1fr);gap:24px;padding-block:40px}.journey-purpose>.photo{max-height:300px}}
+@media(max-width:600px){.journey-purpose{grid-template-columns:minmax(88px,28%) minmax(0,1fr);gap:16px;padding-block:32px}.journey-purpose>.photo{aspect-ratio:3/4;max-height:180px}}
