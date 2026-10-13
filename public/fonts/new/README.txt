@@ -1,28 +1,24 @@
-Cormorant Garamond Variable Font
-================================
+Manrope Variable Font
+=====================
 
-This download contains Cormorant Garamond as both variable fonts and static fonts.
+This download contains Manrope as both a variable font and static fonts.
 
-Cormorant Garamond is a variable font with this axis:
+Manrope is a variable font with this axis:
   wght
 
-This means all the styles are contained in these files:
-  CormorantGaramond-VariableFont_wght.ttf
-  CormorantGaramond-Italic-VariableFont_wght.ttf
+This means all the styles are contained in a single file:
+  Manrope-VariableFont_wght.ttf
 
 If your app fully supports variable fonts, you can now pick intermediate styles
 that aren’t available as static fonts. Not all apps support variable fonts, and
-in those cases you can use the static font files for Cormorant Garamond:
-  static/CormorantGaramond-Light.ttf
-  static/CormorantGaramond-Regular.ttf
-  static/CormorantGaramond-Medium.ttf
-  static/CormorantGaramond-SemiBold.ttf
-  static/CormorantGaramond-Bold.ttf
-  static/CormorantGaramond-LightItalic.ttf
-  static/CormorantGaramond-Italic.ttf
-  static/CormorantGaramond-MediumItalic.ttf
-  static/CormorantGaramond-SemiBoldItalic.ttf
-  static/CormorantGaramond-BoldItalic.ttf
+in those cases you can use the static font files for Manrope:
+  static/Manrope-ExtraLight.ttf
+  static/Manrope-Light.ttf
+  static/Manrope-Regular.ttf
+  static/Manrope-Medium.ttf
+  static/Manrope-SemiBold.ttf
+  static/Manrope-Bold.ttf
+  static/Manrope-ExtraBold.ttf
 
 Get started
 -----------
